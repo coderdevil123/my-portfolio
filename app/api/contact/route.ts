@@ -1,7 +1,7 @@
 import { type NextRequest, NextResponse } from "next/server"
 import { sendEmail, emailTemplates, verifyEmailConnection } from "@/lib/email"
 import { connectToDB } from "@/lib/db"
-import { Contact } from "@/models/Contact"
+import Contact from "@/app/model/Contact"
 
 
 export async function POST(request: NextRequest) {
