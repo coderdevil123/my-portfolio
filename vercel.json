@@ -1,0 +1,7 @@
+{
+  "build": {
+    "env": {
+      "NPM_CONFIG_FROZEN_LOCKFILE": "false"
+    }
+  }
+}
